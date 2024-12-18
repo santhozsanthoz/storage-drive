@@ -1,6 +1,6 @@
 fileignoreconfig:
 - filename: src/main/webapp/client/package-lock.json
-  checksum: 2069f8a696c9ed5d6a2af06f4307fd3369ded1368e9f9487be0dad43653518f1
+  checksum: 3da5c878c39008efbf6b335eccb48cc38c8d0576fca5b1a45794ba1ec4edaa3f
 - filename: src/main/webapp/client/public/vite.svg
   checksum: d004544cf4af5aead697477a13605a8c83c768a3ab1157017e0ae8007f60c6d8
 version: "1.0"

@@ -6,6 +6,7 @@ plugins {
 }
 
 node {
+	version = "22.12.0"
 	download = false
 	workDir = file("${project.projectDir}/src/main/webapp/client/nodejs")
 	npmWorkDir = file("${project.projectDir}/src/main/webapp/client/npm")
