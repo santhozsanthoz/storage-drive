@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/q")
 public class ForwardController {
-    @RequestMapping(value = {"", "/", "/{path:[^\\.]*}"})
+    @RequestMapping("/**")
     public String clientLoginPage() {
         return "forward:/";
     }

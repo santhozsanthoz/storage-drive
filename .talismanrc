@@ -1,6 +1,12 @@
 fileignoreconfig:
+- filename: build.gradle
+  checksum: 3ad7175487108ba76b8178e9a59fe4fa57732ab404451b0b39288cc3ccc9adc4
+- filename: src/main/resources/application.properties
+  checksum: f74b9078ddb0da7ffb263e730b6fa459e1ff9ad8223834318e5ea3d371b9d68a
+- filename: src/main/resources/db/migration/V1.1__CreateUserTable.sql
+  checksum: e31ed3c2a3daaaa2ec98964dcc5df3fdf34bd06bb6e62f3bef4d2efba543d5bc
 - filename: src/main/webapp/client/package-lock.json
-  checksum: 3da5c878c39008efbf6b335eccb48cc38c8d0576fca5b1a45794ba1ec4edaa3f
+  checksum: 08b09d4c43614bc51a0e16f0cd2e7d3f2a35724bc35fee984377b0837036fa0b
 - filename: src/main/webapp/client/public/vite.svg
   checksum: d004544cf4af5aead697477a13605a8c83c768a3ab1157017e0ae8007f60c6d8
 version: "1.0"

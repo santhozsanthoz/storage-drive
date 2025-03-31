@@ -1,13 +1,11 @@
-import React from 'react';
-import PageComponent from './components/PageComponent.jsx';
-import Navbar from './components/Navbar.jsx';
+import React, { useEffect, useState } from 'react';
+import Router from './routers/router.jsx';
 import './App.css';
 
 function App() {
   return (
     <>
-      <Navbar />
-      <PageComponent />
+     <Router />
     </>
   )
 }
