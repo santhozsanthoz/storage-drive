@@ -16,7 +16,6 @@ public class PathService {
 
     public List<String> getPath(String[] paths) {
         String basePath = pathConfig.getApplicationPath();
-        // TODO : validate the current path and get the path file names in i
         String currentPath = getCurrentPath(paths);
         String fullPath = basePath + currentPath;
         File directory = new File(fullPath);

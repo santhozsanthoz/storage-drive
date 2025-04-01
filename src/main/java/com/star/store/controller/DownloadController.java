@@ -12,8 +12,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class DownloadController {
+    private final DownloadService downloadService;
+
     @Autowired
-    private DownloadService downloadService;
+    public DownloadController(DownloadService downloadService) {
+        this.downloadService = downloadService;
+    }
+
     @GetMapping("/download/**")
     public ResponseEntity<FileSystemResource> downloadFile(HttpServletRequest request) {
         String currentPath = request.getRequestURI();
